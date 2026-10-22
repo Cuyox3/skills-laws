@@ -16,6 +16,7 @@ Uso:
   python3 plazos.py 2026-10-01 15 --calendario amparo
   python3 plazos.py 2026-12-08 30 --vacaciones 2026-12-16:2026-12-31 --inhabil 2026-11-02
   python3 plazos.py 2026-10-01 30 --surte-efectos-mismo-dia   # p. ej. autoridades en amparo
+  python3 plazos.py 2026-10-01 10 --surte-efectos-dia 2       # Boletín Jurisdiccional (art. 65 reformado, verificar)
 """
 import argparse
 import datetime as dt
@@ -78,6 +79,8 @@ def main():
     p.add_argument("--calendario", choices=["tfja", "amparo"], default="tfja")
     p.add_argument("--inhabil", action="append", default=[], help="Día inhábil adicional (repetible)")
     p.add_argument("--vacaciones", action="append", default=[], help="Rango inhábil INICIO:FIN (repetible)")
+    p.add_argument("--surte-efectos-dia", type=int, default=1,
+                   help="Día hábil en que surte efectos la notificación (1 = siguiente; 2 = Boletín Jurisdiccional tras la reforma LFPCA 2026, verificar)")
     p.add_argument("--surte-efectos-mismo-dia", action="store_true",
                    help="La notificación surte efectos el mismo día (no se agrega el día de surtimiento)")
     args = p.parse_args()
@@ -94,7 +97,10 @@ def main():
             d += dt.timedelta(days=1)
         return d
 
-    surte = notif if args.surte_efectos_mismo_dia else siguiente_habil(notif)
+    surte = notif
+    if not args.surte_efectos_mismo_dia:
+        for _ in range(args.surte_efectos_dia):
+            surte = siguiente_habil(surte)
     d = surte
     contados = []
     while len(contados) < args.dias:

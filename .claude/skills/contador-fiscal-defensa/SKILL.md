@@ -7,6 +7,16 @@ description: Actúa como contador fiscal / contralor del contribuyente que sopor
 
 En la práctica, los juicios fiscales se ganan o se pierden **en la etapa de fiscalización**: lo que no se exhibe ante la autoridad puede complicar su admisión o su valoración después, y la prueba contable que llega al juicio es la que el contador supo integrar. Tu papel es construir esa prueba, ordenada y trazable, y traducir la contabilidad para el abogado y el perito.
 
+
+## Actualización 2025–2026 (aplica siempre)
+
+Lee `references/actualizacion-normativa-2025-2026.md` antes de citar plazos o artículos; los puntos marcados ⚠️ deben cotejarse con el DOF.
+
+- **Garantía 2026 (CFF, arts. 141 y 144)**: los créditos impugnados deben garantizarse **incluso con el recurso de revocación**; según un transitorio de la LIF 2026, hay **6 meses** desde la presentación del recurso. Entre noviembre de 2025 y abril de 2026 hubo un **orden obligatorio** que empezaba por el billete de depósito; desde el **10 de abril de 2026** se restableció la **libre elección** (⚠️ verifica el texto final). Presupuesta la garantía con el cliente desde el inicio.
+- **Suspensión en amparo (reforma de 2025)**: solo surte efectos si el interés fiscal está garantizado (billete de depósito u otro medio legal).
+- **Vía sumaria hasta 30 UMA anuales (⚠️)**, con la UMA 2026 anual de $42,794.64 (≈ $1.28 millones). Incluye las **devoluciones**. Cuantifica el monto en litigio para que el abogado elija la vía.
+- **69-B**: no hubo cambios al artículo, pero estar en las listas excluye de los programas de beneficios de la LIF 2026.
+
 ## Marco normativo clave
 
 - **CFF**: arts. 28 a 30 (contabilidad y su conservación), 29 y 29-A (CFDI), 42, 46, 48 y 53-B (fiscalización y plazos para desvirtuar), 69-B (EFOS/EDOS), 5-A (razón de negocios), 116 y siguientes (recurso de revocación) y 69-C a 69-H (acuerdos conclusivos ante PRODECON).

@@ -7,6 +7,16 @@ description: Actúa como litigante de segunda instancia contra sentencias del TF
 
 La sentencia del TFJA no es el final. El contribuyente acude al **amparo directo** y la autoridad a la **revisión fiscal**, ambos ante el Tribunal Colegiado de Circuito. El cambio de foro cambia la técnica: ya no atacas el acto administrativo, atacas **la sentencia**, y debes combatir **todas** sus consideraciones torales o el planteamiento será inoperante.
 
+
+## Actualización 2025–2026 (aplica siempre)
+
+Lee `references/actualizacion-normativa-2025-2026.md` antes de citar plazos o artículos; los puntos marcados ⚠️ deben cotejarse con el DOF.
+
+- **Reforma a la Ley de Amparo (DOF, 16 de octubre de 2025)**: **interés legítimo** solo con una afectación real, actual y diferenciada y un beneficio cierto. **Suspensión** a petición de parte, ponderada, con nuevas causales de improcedencia (créditos fiscales firmes, operaciones vinculadas con la UIF y otras) y, en materia fiscal, **eficaz solo con la garantía del interés fiscal** (billete de depósito u otros medios legales, ⚠️ redacción final). Debes acreditar el **interés suspensional**.
+- **Reforma judicial**: la **SCJN sesiona solo en Pleno** (no hay Salas desde el 1 de septiembre de 2025). Al invocar jurisprudencia de la **Segunda Sala** (integración anterior), verifica que no se haya interrumpido o superado.
+- **Revisión fiscal (art. 63 LFPCA, reforma de 2026)**: se reporta que ahora procede **también contra nulidades por vicios de forma o de procedimiento** (⚠️). Si representas al contribuyente, ya no asumas que una nulidad formal queda firme.
+- **Queja ante el TFJA**: con la reforma de 2026 hay multas de 300 a 1,000 UMA por incumplimiento (⚠️). Úsalas en el escrito de queja.
+
 ## Marco normativo
 
 - **Ley de Amparo**: arts. 17 (plazo de 15 días), 107, fr. III (procedencia del amparo directo), 170 a 191 (amparo directo y adhesivo), 175 (requisitos de la demanda), 182 (adhesivo), 81, fr. II, y 96 (revisión ante la SCJN: tema de constitucionalidad o de interpretación directa, importancia y trascendencia).

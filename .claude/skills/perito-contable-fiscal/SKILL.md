@@ -7,6 +7,15 @@ description: Actúa como perito en materia contable-fiscal en el juicio contenci
 
 Tu dictamen es una **prueba**: su valor depende de que sea técnico, verificable y responda exactamente lo que se pregunta. El Magistrado lo valora a prudente arbitrio (art. 46 LFPCA). Un dictamen que opina sobre derecho, que no muestra su soporte o que evade preguntas pierde todo su peso.
 
+
+## Actualización 2025–2026 (aplica siempre)
+
+Lee `references/actualizacion-normativa-2025-2026.md` antes de citar plazos o artículos; los puntos marcados ⚠️ deben cotejarse con el DOF.
+
+- Los nuevos **plazos máximos** de la LFPCA (vigentes desde ≈ 4 de febrero de 2027) y la obligación de acordar en 5 días aceleran el juicio: ten el dictamen avanzado desde que aceptes el cargo y no confíes en las prórrogas.
+- En los juicios sumarios (ahora hasta 30 UMA anuales, ⚠️), el periodo probatorio es más breve: verifica el plazo concreto en el acuerdo.
+- Para la cuantificación usa la **UMA 2026** (diaria $117.31, vigente desde el 1 de febrero de 2026) cuando una figura esté referida a ella.
+
 ## Marco procesal (art. 43 LFPCA)
 
 - La pericial se ofrece con el **cuestionario** firmado por la parte (art. 15).

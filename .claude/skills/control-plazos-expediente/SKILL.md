@@ -7,6 +7,16 @@ description: Actúa como coordinador del expediente / pasante / secretario del d
 
 En el litigio fiscal, un plazo vencido es una pérdida irreparable: la demanda extemporánea se desecha sin estudiar el fondo. Por eso esta skill calcula los plazos con un script determinista, en lugar de contar "de cabeza", y siempre muestra cómo llegó al resultado.
 
+
+## Actualización 2025–2026 (aplica siempre)
+
+Lee `references/actualizacion-normativa-2025-2026.md` antes de citar plazos o artículos; los puntos marcados ⚠️ deben cotejarse con el DOF.
+
+- **Reforma a la LFPCA (DOF, 9 de junio de 2026)**: los **plazos máximos** del Tribunal y de las partes entran en vigor a los **240 días naturales (≈ 4 de febrero de 2027)**, y la actuación electrónica de autoridades y terceros a los 180 (≈ 6 de diciembre de 2026). En cada expediente, anota **qué régimen aplica** según su fecha de inicio y los transitorios.
+- **Boletín Jurisdiccional (art. 65)**: la notificación surte efectos al **2.º día hábil** (⚠️), no al día siguiente. Para una notificación por boletín, usa `--surte-efectos-dia 2` en el script.
+- **Ampliación (art. 17)**: el plazo es dudoso, entre **10 y 20 días** ⚠️. **Agenda siempre el menor** hasta verificarlo.
+- **Garantía en la revocación**: 6 meses desde la interposición del recurso (transitorio de la LIF 2026, ⚠️). Agéndalo como un vencimiento.
+
 ## Cálculo de plazos
 
 Usa siempre el script:
@@ -14,7 +24,7 @@ Usa siempre el script:
 ```bash
 python3 <ruta-de-esta-skill>/scripts/plazos.py <fecha_notificacion AAAA-MM-DD> <dias> \
     [--calendario tfja|amparo] [--inhabil AAAA-MM-DD ...] [--vacaciones INICIO:FIN ...] \
-    [--surte-efectos-mismo-dia]
+    [--surte-efectos-dia N] [--surte-efectos-mismo-dia]
 ```
 
 El script aplica la regla general: la notificación surte efectos el día hábil siguiente y el plazo corre a partir del día hábil siguiente a ese. Descuenta sábados, domingos y los días inhábiles fijos por ley (art. 12 CFF / art. 74 LFT para el TFJA; art. 19 de la Ley de Amparo para el PJF).
@@ -32,16 +42,17 @@ Si no tienes esa información, entrega el resultado con la advertencia expresa: 
 |---|---|---|
 | Recurso de revocación | 30 días hábiles | art. 121 CFF |
 | Demanda de nulidad, vía ordinaria | 30 días hábiles | art. 13 LFPCA |
-| Demanda, vía sumaria | verificar el texto vigente | art. 58-2 LFPCA |
+| Demanda, vía sumaria (hasta 30 UMA anuales tras la reforma de 2026 ⚠️) | verificar el texto vigente | arts. 58-2 y 58-3 LFPCA |
 | Contestación de la demanda | 30 días hábiles | art. 19 LFPCA |
-| Ampliación de la demanda | verificar (10 días tras la reforma de 2016) | art. 17 LFPCA |
+| Ampliación de la demanda | **10 o 20 días ⚠️**: agenda el menor | art. 17 LFPCA |
 | Desahogo de una prevención | 5 días | arts. 14 y 15 LFPCA |
 | Alegatos | 5 días | art. 47 LFPCA |
 | Recurso de reclamación | 5 días | art. 59 LFPCA |
 | Revisión fiscal (autoridad) | 15 días | art. 63 LFPCA |
 | Amparo directo | 15 días | art. 17 Ley de Amparo |
 | Amparo adhesivo | 15 días desde que se notifica la admisión del principal | art. 181 Ley de Amparo |
-| Cumplimiento de la sentencia (autoridad) | 4 meses | art. 52 LFPCA |
+| Cumplimiento de la sentencia (autoridad) | 4 meses (vía sumaria: 1 mes ⚠️) | art. 52 LFPCA |
+| Acuerdos del TFJA sobre promociones | 5 días (plazos máximos vigentes ≈ 4 de febrero de 2027) | reforma LFPCA 2026 |
 
 Esta tabla es una guía. **Antes de dar un vencimiento como definitivo, confirma el artículo vigente.**
 

@@ -7,6 +7,16 @@ description: Actúa como asesor jurídico de la Procuraduría de la Defensa del 
 
 La PRODECON es un **ombudsman fiscal**: no anula actos, pero tiene herramientas muy eficaces para resolver conflictos sin juicio o antes del juicio, y para representar gratuitamente a los contribuyentes que cumplen los requisitos. Tu trabajo es elegir el mecanismo correcto y redactar la solicitud de forma que la Procuraduría pueda actuar de inmediato.
 
+
+## Actualización 2025–2026 (aplica siempre)
+
+Lee `references/actualizacion-normativa-2025-2026.md` antes de citar plazos o artículos; los puntos marcados ⚠️ deben cotejarse con el DOF.
+
+- **Valores de la UMA 2026** (INEGI, vigentes desde el 1 de febrero de 2026): diaria $117.31, mensual $3,566.22 y anual $42,794.64. Úsalos al verificar el umbral de la representación gratuita (verifica cuántas UMA fijan los lineamientos vigentes).
+- **Garantía aun con revocación** (régimen 2026): orienta al contribuyente sobre el plazo de 6 meses (⚠️) y sobre la libre elección del medio de garantía desde el 10 de abril de 2026.
+- **Nuevas fracciones X a XII del art. 124 CFF** (improcedencia de la revocación): revísalas antes de recomendar el recurso.
+- La **reforma a la Ley de Amparo de 2025** restringe el interés legítimo y la suspensión en materia fiscal: los mecanismos de PRODECON (queja y acuerdo conclusivo) cobran más valor relativo.
+
 ## Marco normativo
 
 - **Ley Orgánica de la PRODECON** (LOPRODECON): art. 5 (atribuciones: asesoría, representación, quejas, acuerdos conclusivos, consultas).

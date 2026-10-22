@@ -10,18 +10,30 @@ revocación, PRODECON) y posteriores (amparo directo, revisión fiscal).
 > verificar la vigencia de los artículos y plazos y a marcar `[VERIFICAR]` en lugar de
 > inventar tesis.
 
-## Skills por puesto
+## Skills por puesto (13)
 
-| Puesto | Skill | Para qué |
+| Ámbito | Puesto | Skill |
 |---|---|---|
-| Abogado del contribuyente (actor) | `abogado-actor-demanda-nulidad` | Diagnóstico, demanda de nulidad, conceptos de impugnación, ampliación y alegatos |
-| Abogado de la autoridad (SAT/IMSS/INFONAVIT) | `abogado-autoridad-demandada` | Contestación, improcedencia y sobreseimiento, refutación, allanamiento |
-| Magistrado Instructor / Secretario de Estudio y Cuenta | `magistrado-proyecto-sentencia` | Acuerdos, interlocutorias, proyecto de sentencia y efectos del art. 52 |
-| Perito contable | `perito-contable-fiscal` | Dictamen pericial, revisión del dictamen contrario y repreguntas |
-| Contador fiscal / contralor | `contador-fiscal-defensa` | Materialidad, mapa de observaciones, cédulas y cuantificación |
-| Asesor de PRODECON | `asesor-prodecon` | Quejas, acuerdos conclusivos y representación gratuita |
-| Litigante de segunda instancia | `litigante-amparo-revision-fiscal` | Amparo directo, adhesivo, revisión fiscal, reclamación y queja |
-| Coordinador del expediente / pasante | `control-plazos-expediente` | Cómputo de plazos (script), agenda, índice del expediente y reportes |
+| Abogados | Abogado del contribuyente (actor) | `abogado-actor-demanda-nulidad` |
+| Abogados | Litigante de amparo y de segunda instancia | `litigante-amparo-revision-fiscal` |
+| Abogados | Asesor de PRODECON | `asesor-prodecon` |
+| Hacienda | Abogado de la autoridad (AGJ/ADJ del SAT, IMSS, INFONAVIT, estados) | `abogado-autoridad-demandada` |
+| Hacienda | Auditor, visitador o ejecutor del SAT (AGAFF, AGGC, AGH, AGR) | `funcionario-sat-fiscalizacion` |
+| Hacienda | Procuraduría Fiscal de la Federación (amparos contra leyes, delitos fiscales) | `procuraduria-fiscal-federacion` |
+| Juzgados | Magistrado instructor o secretario del TFJA | `magistrado-proyecto-sentencia` |
+| Juzgados | Juez de Distrito, Tribunal Colegiado o SCJN (amparo fiscal) | `juzgador-amparo-fiscal` |
+| Especialistas | Contador fiscal / contralor | `contador-fiscal-defensa` |
+| Especialistas | Perito contable | `perito-contable-fiscal` |
+| Especialistas | Precios de transferencia, comercio exterior y aduanas, seguridad social | `especialista-tecnico-fiscal` |
+| Especialistas | Coordinador del expediente / pasante | `control-plazos-expediente` |
+| Academia | Docente e investigador universitario | `docente-investigador-derecho-fiscal` |
+
+## Documentación
+
+- [`docs/actualizacion-normativa-2025-2026.md`](docs/actualizacion-normativa-2025-2026.md): reforma a la LFPCA (9 de junio de 2026), reforma a la Ley de Amparo, el CFF y la LOTFJA (16 de octubre de 2025), CFF 2026 (garantías), reforma judicial, TFJA, UMA 2026 y estructura de la SHCP y el SAT, con su nivel de certeza (✅ / ⚠️) y fuentes.
+- [`docs/mapa-de-actores.md`](docs/mapa-de-actores.md): quién es quién (Hacienda, juzgados, abogados, especialistas y academia) y qué skill corresponde a cada puesto.
+
+Cada skill trae su propia copia del documento de actualización en `references/`. Para actualizarlo, edita el archivo en `docs/` y ejecuta `scripts/sync-actualizacion.sh`.
 
 ## Uso
 

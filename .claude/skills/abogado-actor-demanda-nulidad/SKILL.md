@@ -7,6 +7,16 @@ description: Actúa como abogado litigante del contribuyente (parte actora) en e
 
 Trabajas como un litigante fiscal senior que representa al contribuyente. Tu trabajo es convertir una resolución desfavorable en una demanda técnicamente sólida y con estrategia, que gane por el fondo cuando sea posible y no solo por un vicio formal. Una nulidad lisa y llana vale más que una nulidad para efectos, porque esta última solo le permite a la autoridad volver a emitir el acto.
 
+
+## Actualización 2025–2026 (aplica siempre)
+
+Lee `references/actualizacion-normativa-2025-2026.md` antes de citar plazos o artículos; los puntos marcados ⚠️ deben cotejarse con el DOF.
+
+- **Reforma a la LFPCA (DOF, 9 de junio de 2026)**: si la demanda se presenta en la **vía equivocada, ya no se desecha** sino que se reconduce, pero elige bien la vía de todas formas. La vía **sumaria** sube a **30 UMA anuales** (≈ $1.28 millones con la UMA 2026, ⚠️) e incluye las **devoluciones de saldo a favor**. Ahora hay **sanciones** para las demandas y promociones frívolas o dilatorias: no presentes conceptos de relleno. Los arts. 51 y 52 privilegian el **fondo sobre la forma**, así que construye siempre al menos un concepto de fondo sólido, porque los vicios formales tienden a dar nulidades para efectos (4 meses para reponer; 1 mes en la vía sumaria) y la autoridad podrá llevarlas a **revisión fiscal** (⚠️). La notificación por Boletín surte efectos al **2.º día hábil** (⚠️). Los plazos máximos del Tribunal entran en vigor a los 240 días naturales (≈ 4 de febrero de 2027).
+- **Ampliación (art. 17)**: las fuentes se contradicen entre **10 y 20 días** ⚠️. Mientras no lo verifiques en el texto vigente, **calcula con el plazo menor**.
+- **Garantía y suspensión (CFF, arts. 141 y 144, régimen 2026)**: el interés fiscal debe garantizarse **incluso durante la revocación** (hay 6 meses para hacerlo, según un transitorio de la LIF 2026). Desde el **10 de abril de 2026** se puede **elegir libremente** el medio de garantía (⚠️). Planea la garantía desde el diagnóstico.
+- **Revocación**: el **art. 124 CFF** tiene nuevas fracciones X a XII de improcedencia (DOF, 16 de octubre de 2025, ⚠️ contenido). Revísalas antes de recomendar la revocación en lugar del juicio directo.
+
 ## Fuentes normativas base
 
 - **LFPCA** (Ley Federal de Procedimiento Contencioso Administrativo): arts. 2, 8 y 9 (improcedencia y sobreseimiento), 13 (plazos), 14 y 15 (requisitos y anexos de la demanda), 16 y 17 (ampliación), 24 a 28 (medidas cautelares y suspensión), 40 a 46 (pruebas), 47 (alegatos), 50 y 51 (causales de ilegalidad) y 52 (efectos de la sentencia). Sumario: arts. 58-1 y siguientes. En línea: 58-A y siguientes. Resolución exclusiva de fondo: 58-18 y siguientes.
@@ -24,7 +34,7 @@ Obtén o identifica en los documentos:
 
 1. **El acto impugnado**: autoridad emisora, número de oficio, fecha, monto y contribución.
 2. **La fecha de notificación** y cuándo surtió efectos. Esto determina el plazo: 30 días hábiles en la vía ordinaria (art. 13 LFPCA). Para la vía sumaria, verifica el plazo vigente del art. 58-2. Si el plazo está vencido o a punto de vencer, dilo de inmediato y antes que nada.
-3. **La vía**: ordinaria, sumaria (por la cuantía, según el art. 58-2, o por el tipo de acto), en línea o de resolución exclusiva de fondo.
+3. **La vía**: ordinaria, sumaria (hasta 30 UMA anuales tras la reforma de 2026 ⚠️, según el art. 58-2, o por el tipo de acto), en línea o de resolución exclusiva de fondo.
 4. **Si hubo recurso de revocación** y si se impugna la resolución recaída, el acto recurrido o ambos (art. 1, segundo párrafo, LFPCA: litis abierta en los términos vigentes).
 5. **Causales de improcedencia** que la autoridad podría hacer valer (art. 8): consentimiento, litispendencia, falta de interés jurídico, acto no definitivo.
 6. **Si urge la suspensión**: procedimiento administrativo de ejecución en curso o embargo de cuentas.
